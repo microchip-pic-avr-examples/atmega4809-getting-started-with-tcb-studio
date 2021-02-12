@@ -4,26 +4,26 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-getting-started-with-tcb-studio",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Getting Started with Timer/Counter Type B (TCB)",
         "projectName": "atmega4809-getting-started-with-tcb-studio",
-        "shortDescription": "",
+        "shortDescription": "This repository contains examples of bare metal source code for Timer/Counter Type B (TCB) as described in TB3214 - Getting Started with Timer/Counter Type B (TCB) document.",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ""
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATmega_DFP",
+            "semverRange": "^1.6.364"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,16 +32,25 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATmega4809",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+            [
+                "Peripherals",
+                "TCB"
+            ]
         ],
         "peripherals": [
+            "TCB"
         ],
         "keywords": [
+            "Bare Metal",
+            "Getting Started",
+            "Periodical Signal",
+            "Timer/Counter"
         ],
 		"additionalData": {
 			"longDescription": {
