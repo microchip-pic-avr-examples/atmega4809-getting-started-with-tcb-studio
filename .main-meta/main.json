@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-getting-started-with-tcb-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Getting Started with Timer/Counter Type B (TCB)",
         "projectName": "atmega4809-getting-started-with-tcb-studio",
         "shortDescription": "This repository contains examples of bare metal source code for Timer/Counter Type B (TCB) as described in TB3214 - Getting Started with Timer/Counter Type B (TCB) document.",
